@@ -13,11 +13,11 @@ reg [3:0] counter;
 
 wire [63:0] out;
 
-reg [63:0] testpos;
-reg [5:0] tp_counter;
+reg [63:0] aj;
+reg [5:0] aj_counter;
 
-reg [63:0] outpos;
-reg [5:0] op_counter;
+reg [63:0] ak;
+reg [5:0] ak_counter;
 
 
 // Instantiate the Module to be tested
