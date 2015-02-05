@@ -1,3 +1,5 @@
+`timescale 1 ns/ 1 ps
+
 module Expansion_Function(in, out);
   input [31:0] in;
   output [47:0] out;

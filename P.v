@@ -1,3 +1,5 @@
+`timescale 1 ns/ 1 ps
+
 module Permutation(in, out);
   input [31:0] in;
   output [31:0] out;

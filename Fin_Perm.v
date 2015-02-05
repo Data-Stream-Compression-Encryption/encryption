@@ -1,3 +1,5 @@
+`timescale 1 ns/ 1 ps
+
 module Final_Permutation(in, out);
   input [63:0] in;
   output [63:0] out;

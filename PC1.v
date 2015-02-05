@@ -1,3 +1,5 @@
+`timescale 1 ns/ 1 ps
+
 module Permuted_Choice_1(in, out);
   input [63:0] in;
   output [55:0] out;
