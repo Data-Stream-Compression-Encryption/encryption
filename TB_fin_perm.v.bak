@@ -3,7 +3,7 @@
 
 `timescale 1 ns/ 1 ps
 
-module TB_Initial_Permutation;
+module TB_Final_Permutation;
 
 
 // Declare the inputs to be connected
@@ -22,7 +22,7 @@ reg [5:0] op_counter;
 
 // Instantiate the Module to be tested
 
-Initial_Permutation U1(.in(test_value),.out(out));
+Final_Permutation U1(.in(test_value),.out(out));
 // Stimulate the inputs
 
 // Define the input stimulus module
