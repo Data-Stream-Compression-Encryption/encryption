@@ -1,3 +1,12 @@
+/*
+
+Module: Permuted_Choice_1
+Input: 64-bit input
+Output: 56-bit output in accordance with the PC-1 Function
+Modules Used: N/A
+
+*/
+
 `timescale 1 ns/ 1 ps
 
 module Permuted_Choice_1(in, out);

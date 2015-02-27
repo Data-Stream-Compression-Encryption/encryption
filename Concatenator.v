@@ -1,3 +1,12 @@
+/*
+
+Module: Concatenator
+Input: Two 28-bit inputs
+Output: One 56-bit output
+Modules Used: N/A
+
+*/
+
 `timescale 1 ns/ 1 ps
 
 module Concatenator(in_upper, in_lower, out);

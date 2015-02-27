@@ -1,3 +1,12 @@
+/*
+
+Module: Expansion_Function
+Input: 32-bit input
+Output: 48-bit output in accordance with the Expansion Function
+Modules Used: N/A
+
+*/
+
 `timescale 1 ns/ 1 ps
 
 module Expansion_Function(in, out);

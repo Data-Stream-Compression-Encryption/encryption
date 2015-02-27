@@ -1,3 +1,12 @@
+/*
+
+Module: Final_Permutation
+Input: 64-bit input
+Output: 64-bit output in accordance with the Final Permutation Function
+Modules Used: N/A
+
+*/
+
 `timescale 1 ns/ 1 ps
 
 module Final_Permutation(in, out);

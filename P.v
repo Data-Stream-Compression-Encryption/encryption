@@ -1,3 +1,12 @@
+/*
+
+Module: Permutation
+Input: 32-bit input
+Output: 32-bit ouput in accordance with the Permutation Function
+Modules Used: N/A
+
+*/
+
 `timescale 1 ns/ 1 ps
 
 module Permutation(in, out);

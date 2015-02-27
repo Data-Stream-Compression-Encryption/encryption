@@ -1,3 +1,12 @@
+/*
+
+Module: S_Box_4
+Input: 6-bit
+Output: 4-bit output in accordance with the S-Box Lookup Table
+Modules Used: N/A
+
+*/
+
 `timescale 1 ns/ 1 ps
 
 module S_Box_4(in, out);

@@ -1,3 +1,12 @@
+/*
+
+Module: Halfer
+Input: 56-bit inupt
+Output: Two 28-bit outputs, splitting the input in two 
+Modules Used: N/A
+
+*/
+
 `timescale 1 ns/ 1 ps
 
 module Halfer(in, out_upper, out_lower);

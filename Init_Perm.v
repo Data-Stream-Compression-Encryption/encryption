@@ -1,3 +1,12 @@
+/*
+
+Module: Initial_Permutation
+Input: 64-bit input
+Output: 64-bit output in accordance with the Initial Permutation Function
+Modules Used: N/A
+
+*/
+
 `timescale 1 ns/ 1 ps
 
 module Initial_Permutation(in, out);

@@ -1,3 +1,12 @@
+/*
+
+Module: Permuted_Choice_2
+Input: 56-bit input
+Output: 48-bit output in accordance with the PC-2 Function
+Modules Used: N/A
+
+*/
+
 `timescale 1 ns/ 1 ps
 
 module Permuted_Choice_2(in, out);
