@@ -8,6 +8,8 @@ Modules Used: DES_Core
 
 */
 
+`timescale 1 ns/ 1 ps
+
 module Encryption_DES(data_in, encryption_key, data_out);
   input [63:0] data_in;
   input [63:0] encryption_key;
