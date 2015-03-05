@@ -1,4 +1,5 @@
-
+// Define the stimulus module -- Note the toplevel Stimulus module
+//	has no ports!
 
 `timescale 1 ns/ 1 ps
 
