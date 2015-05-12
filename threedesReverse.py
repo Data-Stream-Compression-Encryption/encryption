@@ -8,8 +8,8 @@ import os
 # print(''.join('{:02x}'.format(x) for x in testFile.read(8)))
 # testFile.close()
 
-inFileName = ''
-outFileName = ''
+inFileName = 'testData1.bmp'
+outFileName = 'testData1outsim'
 
 inFile = open(inFileName,'rb')
 outFile = open(outFileName,'w')
@@ -39,7 +39,7 @@ while(inFileSize > 0):
 
 
 
-    hash = encryptor3.decrypt(data)
+    hash = encryptor3.encrypt(data)
 
     outFile.write(''.join('{:02x}'.format(x) for x in hash))
 
